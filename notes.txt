@@ -1,0 +1,6 @@
+Create a small application that has a usecase and implement CRUD functionalities. (50%)
+
+There should atleast be 2 or 3 actors in ur application and has authentication/ authorization
+
+If the app has a good UI.
+
