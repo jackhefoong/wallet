@@ -1,5 +1,5 @@
 <?php 
-$title = "Articles";
+$title = "Feedbacks";
 require_once "../controllers/connection.php";
 require_once "../controllers/users.php";
 require_once "../controllers/admins.php";

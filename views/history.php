@@ -62,6 +62,9 @@ function get_content() {
     // }
     
 ?>
+
+<!-- <div class="bg-img"> -->
+
 <div class="container">
     <h4 class="white-text">Expenses</h4>
     <br>
@@ -80,6 +83,8 @@ function get_content() {
 <div id="chartsize" class="container">
 <canvas id="myChart" width="400" height="400"></canvas>
 </div>
+
+<!-- </div> -->
 
 <script>
     

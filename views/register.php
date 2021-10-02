@@ -56,7 +56,7 @@ function get_content() {
                     </form>
                     </div>
                     <div class="card-action">
-                    <small class="white-text">Already have an account? <a href="login.php" class="amber-text lighten-1">Click here to login.</a></small>
+                    <small class="white-text">Already have an account? <a href="/" class="amber-text lighten-1">Click here to login.</a></small>
                     </div>
                 </div>
             </div>
