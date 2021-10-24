@@ -5,10 +5,10 @@
         <i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down ">
             <li><a href="/">Home</a></li>
-            <li><a href="/views/articles.php">Articles</a></li>
+            <!-- <li><a href="/views/articles.php">Articles</a></li>
             <?php if(isset($_SESSION["user_data"]) && $_SESSION["user_data"]["isAdmin"]): ?>
                 <li><a href="/views/feedbacks.php">Feedbacks</a></li>
-            <?php endif; ?>
+            <?php endif; ?> -->
             <?php if(isset($_SESSION["user_data"]) && !$_SESSION["user_data"]["isAdmin"]): ?>
                 <li><a href="/views/wallet.php">My Wallet</a></li>
                 <li><a href="/views/history.php">History</a></li>
@@ -37,10 +37,10 @@
         <li><a href="/views/wallet.php">My Wallet</a></li>
         <li><a href="/views/history.php">History</a></li>
     <?php endif; ?>
-        <li><a href="/views/articles.php">Articles</a></li>
+        <!-- <li><a href="/views/articles.php">Articles</a></li>
     <?php if(isset($_SESSION["user_data"]) && $_SESSION["user_data"]["isAdmin"]): ?>
         <li><a href="/views/feedbacks.php">Feedbacks</a></li>
-    <?php endif; ?>
+    <?php endif; ?> -->
 
     <?php if(!isset($_SESSION["user_data"])): ?>
     <li><a href="/">Login</a></li>
